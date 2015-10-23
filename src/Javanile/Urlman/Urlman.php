@@ -52,7 +52,7 @@ class Urlman
 		$q = http_build_query($p);
 		
 		##
-		$n = http_build_url($url,array('query'=>$q));		
+		$n = http_build_url($url, $q ? array('query'=>$q) : null);
 		
 		##
 		return $n;		
