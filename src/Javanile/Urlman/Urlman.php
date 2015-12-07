@@ -25,12 +25,21 @@ class Urlman
 		return $pageURL;
 	}
 
-	## retrieve current page base
-	public static function current_base() {
-		return dirname(curi::current());
+	/**
+     * Retrieve current url base
+     *
+     * @return type
+     */
+	public static function currentBase() {
+		return dirname(static::current());
 	}
 
-	##
+	/**
+     *
+     * @param type $url
+     * @param type $params
+     * @return type
+     */
 	public static function updateParams($url,$params=array()) {
 		
 		##
@@ -58,14 +67,22 @@ class Urlman
 		return $n;		
 	}
 
-	##
-	public static function current_update_params($params=array()) {
+	/**
+     *
+     * @param type $params
+     * @return type
+     */
+	public static function currentUpdateParams($params=array()) {
 	
 		##
-		return curi::update_params(curi::current(),$params);
+		return static::updateParams(static::current(), $params);
 	}
 	
-	##
+	/**
+     *
+     * @param type $url
+     * @return type
+     */
 	public static function isUrl($url) {
 		
 		##
