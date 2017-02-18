@@ -1,13 +1,10 @@
 <?php
-
 /**
  * 
  */
+
 namespace Javanile\Urlman;
 
-/**
- * 
- */
 class Urlman
 {
 	/**
@@ -15,8 +12,12 @@ class Urlman
 	 * 
 	 * @return string
 	 */
-	public static function current() {
+	public static function current()
+    {
+	    //
 		$pageURL = (@$_SERVER["HTTPS"] == "on") ? "https://" : "http://";
+
+		//
 		if ($_SERVER["SERVER_PORT"] != "80") {
 			$pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
 		}  else  {

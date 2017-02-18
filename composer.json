@@ -1,9 +1,10 @@
 {
     "name": "javanile/urlman",
-    "type": "library",
     "description": "Manipulate URL and URI into standard string",
-    "homepage": "http://www.javanile.org",
+    "version": "v0.0.3",
     "license": "MIT",
+    "type": "library",
+    "homepage": "http://www.javanile.org",
     "authors": [
         {"name": "Francesco Bianco", "email": "bianco@javanile.org"}
     ],
