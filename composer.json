@@ -1,17 +1,12 @@
 {
     "name": "javanile/urlman",
     "description": "Manipulate URL and URI into standard string",
-    "version": "v0.0.3",
+    "version": "0.0.4",
     "license": "MIT",
     "type": "library",
     "homepage": "http://www.javanile.org",
-    "authors": [
-        {"name": "Francesco Bianco", "email": "bianco@javanile.org"}
-    ],
-    "require": {
-        "php": ">=5.2"
-    },
-    "autoload": {
-        "psr-0": { "Javanile\\Urlman\\": "src/" }
-    }    
+    "authors": [{"name": "Francesco Bianco", "email": "bianco@javanile.org"}],
+    "repositories": [{"type": "git", "url": "https://github.com/Javanile/Urlman"}],
+    "require": { "php": ">=5.2" },
+    "autoload": { "psr-0": { "Javanile\\Urlman\\": "src/" } }
 }
