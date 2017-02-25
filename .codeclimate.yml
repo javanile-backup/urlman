@@ -1,6 +1,8 @@
 engines:
   duplication:
     enabled: true
+    languages:
+    - php
   fixme:
     enabled: true
   phpcodesniffer:
