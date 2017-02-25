@@ -1,3 +1,8 @@
+ratings:
+  paths:
+  - src/**
+exclude_paths:
+- tests/**
 engines:
   duplication:
     enabled: false
@@ -14,8 +19,3 @@ engines:
     config:
       file_extensions: "php"
       rulesets: "unusedcode,codesize,naming"
-ratings:
-  paths:
-  - src/**
-exclude_paths:
-- tests/**
