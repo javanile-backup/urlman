@@ -1,0 +1,21 @@
+engines:
+  duplication:
+    enabled: true
+  fixme:
+    enabled: true
+  phpcodesniffer:
+    enabled: true
+    config:
+      file_extensions: "php"
+      standard: "PSR1,PSR2"
+      ignore_warnings: false
+  phpmd:
+    enabled: true
+    config:
+      file_extensions: "php"
+      rulesets: "unusedcode,codesize,naming"
+ratings:
+  paths:
+  - src/**
+exclude_paths:
+- tests/**

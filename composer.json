@@ -8,5 +8,5 @@
     "authors": [{"name": "Francesco Bianco", "email": "bianco@javanile.org"}],
     "repositories": [{"type": "git", "url": "https://github.com/Javanile/Urlman"}],
     "require": { "php": ">=5.2" },
-    "autoload": { "psr-0": { "Javanile\\Urlman\\": "src/" } }
+    "autoload": { "psr-4": { "Javanile\\Urlman\\": "src" } }
 }
