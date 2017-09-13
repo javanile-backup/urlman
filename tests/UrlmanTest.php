@@ -8,8 +8,6 @@ final class UrlmanTest extends TestCase
     {
         $url = Javanile\Urlman\Urlman::current();
 
-        echo $url;
-
-        $this->assertEquals($yaml, ['item' => 'one']);
+        $this->assertTrue(is_string($url));
     }
 }
