@@ -1,7 +1,7 @@
 {
     "name": "javanile/urlman",
     "description": "Manipulate URL and URI into standard string",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "license": "MIT",
     "type": "library",
     "homepage": "http://www.javanile.org",
